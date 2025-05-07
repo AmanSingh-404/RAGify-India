@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# RAGify India: Legal AI Assistant
 
-## Project info
+## 🔗 Project Overview
 
-**URL**: https://lovable.dev/projects/ec22a8ef-6aae-4869-b708-8fecc4947ab6
+RAGify India is a legal AI assistant designed to bridge the gap between complex Indian legal information and everyday citizens. It uses **Retrieval-Augmented Generation (RAG)** combined with a chat-based interface to provide accurate, personalized legal answers.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📌 Features
 
-**Use Lovable**
+- 🔍 Natural Language Legal Q&A
+- ⚖️ Indian Constitution, Civil, and Criminal Law coverage
+- 🧠 Powered by RAG + OpenAI/LLM-based models
+- 💬 Chat UI with modern animations and smooth UX
+- 👥 Multi-role support (Students, Lawyers, Citizens)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ec22a8ef-6aae-4869-b708-8fecc4947ab6) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧰 Technologies Used
 
-**Use your preferred IDE**
+- **Next.js** (React framework)
+- **Tailwind CSS** (Utility-first styling)
+- **shadcn/ui** (Component library)
+- **RAG pipeline** (LLM + Vector DB integration)
+- **TypeScript**
+- **Vercel** (or your preferred deployment)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Setup Instructions
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (v18+)
+- npm or yarn
+- Git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📦 Installation Steps
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# 1. Clone the repository
+git clone <YOUR_GIT_REPO_URL>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 2. Navigate into the project
+cd ragify-india-frontend
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ec22a8ef-6aae-4869-b708-8fecc4947ab6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
